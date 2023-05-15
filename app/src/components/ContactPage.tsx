@@ -1,4 +1,4 @@
-import React, { useState, useRef} from "react";
+import React, { useState, useRef } from "react";
 import styles from "./ContactPage.module.css";
 
 function ContactPage() {
@@ -9,22 +9,20 @@ function ContactPage() {
   const emailRef = useRef<HTMLInputElement>(null);
   const messageRef = useRef<HTMLTextAreaElement>(null);
 
-
   const errorHandler = () => {
     setError(null);
   };
 
   const socialMediaHandler = (data: any) => {
     if (data.target.innerHTML === "LinkedIn") {
-      window.location.href = ("");
+      window.location.href = "";
     } else if (data.target.innerHTML === "Github") {
-      window.location.href = ("*");
+      window.location.href = "*";
     }
   };
 
   return (
     <div className={styles.contactPage}>
-
       <div className={styles.image}></div>
 
       <div className={styles.contact_me}>
@@ -78,16 +76,14 @@ function ContactPage() {
             <div className={styles.info}>
               <div className={styles.info_email}>
                 <h2>Email</h2>
-                <div className={styles.info_email_text}>
-                  {email}
-                </div>
+                <div className={styles.info_email_text}>{email}</div>
               </div>
 
               <div className={styles.info_location}>
                 <h2>Based in</h2>
                 <div className={styles.info_location_text}>
-                  <div>Montreal</div>
-                  <div>Quebec</div>
+                  <div>Malaysia</div>
+                  <div>Kuala Lumpur</div>
                 </div>
               </div>
             </div>

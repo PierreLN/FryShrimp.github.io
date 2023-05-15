@@ -6,7 +6,7 @@ const Homepage = (props: any) => {
         <div className={styles.homepage}>
             <div className={styles['homepage-top']}></div>
             <div className={styles['homepage-bottom']}>
-                FryShrimp Website... charging
+            SimpleLifeBalancing
             </div>
         </div>
     )
