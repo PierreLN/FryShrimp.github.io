@@ -9,8 +9,8 @@ function SideMenu(props: any) {
   const aboutPageHandler = () => {
     props.onMove("about");
   };
-  const ProjectPageHandler = () => {
-    props.onMove("project");
+  const blogPageHandler = () => {
+    props.onMove("blog");
   };
   const ContactPageHandler = () => {
     props.onMove("contact");
@@ -23,7 +23,7 @@ function SideMenu(props: any) {
           <Button onClick={homePageHandler}>HOME</Button>
         </li>
         <li>
-          <Button onClick={ProjectPageHandler}>BLOG</Button>
+          <Button onClick={blogPageHandler}>BLOG</Button>
         </li>
         <li>
           <Button onClick={aboutPageHandler}>ABOUT</Button>

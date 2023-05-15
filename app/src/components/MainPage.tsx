@@ -11,7 +11,7 @@ function MainPage(props: any) {
 
   const homePage = <HomePage onClick={props.onClick}></HomePage>;
   const aboutPage = <AboutPage></AboutPage>;
-  const blogPage = <BlogPage></BlogPage>;
+  const blogPage = <BlogPage>sadsfg</BlogPage>;
   const contactPage = <ContactPage></ContactPage>;
 
   const [currentPage, setCurrentPage] = useState(homePage);
@@ -23,7 +23,7 @@ function MainPage(props: any) {
     } else if (props.selectedPage === "home") {
       setCurrentPage(homePage);
     } else if (props.selectedPage === "blog") {
-      setCurrentPage(blogPage);
+      setCurrentPage(<BlogPage></BlogPage>);
     } else if (props.selectedPage === "contact") {
       setCurrentPage(contactPage);
     }
