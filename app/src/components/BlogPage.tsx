@@ -3,9 +3,9 @@ import styles from "./BlogPage.module.css";
 
 function BlogPage() {
   return (
-    <Fragment>
+    <div>
         <div>dsfsdf</div>
-    </Fragment>
+    </div>
   );
 }
 

@@ -10,7 +10,7 @@ function App() {
   };
 
   const onMoveProject = () => {
-    setlocation("project");
+    setlocation("blog");
   }
   return (
     <div className="App">
