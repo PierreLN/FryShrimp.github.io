@@ -1,0 +1,15 @@
+.homepage {
+    width: 90%;
+    height: 90%;
+  }
+
+.homepage-top {
+  width: 90%;
+  height: 70%;
+}
+
+.homepage-bottom {
+  width: 90%;
+  height: 30%;
+  font-size: 100px;
+}
