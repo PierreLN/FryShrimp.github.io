@@ -1,15 +1,16 @@
 {
   "files": {
     "main.css": "/FryShrimp.github.io/static/css/main.57fd5daa.css",
-    "main.js": "/FryShrimp.github.io/static/js/main.033bb6f9.js",
+    "main.js": "/FryShrimp.github.io/static/js/main.5e6098a5.js",
+    "static/media/Kame.jpg": "/FryShrimp.github.io/static/media/Kame.18705efee517db773195.jpg",
     "static/media/Stand_0.jpg": "/FryShrimp.github.io/static/media/Stand_0.fc4603f87a8bb4f5678e.jpg",
     "static/media/Stand_1.jpg": "/FryShrimp.github.io/static/media/Stand_1.b5be39ff5ce8b0805ad0.jpg",
     "index.html": "/FryShrimp.github.io/index.html",
     "main.57fd5daa.css.map": "/FryShrimp.github.io/static/css/main.57fd5daa.css.map",
-    "main.033bb6f9.js.map": "/FryShrimp.github.io/static/js/main.033bb6f9.js.map"
+    "main.5e6098a5.js.map": "/FryShrimp.github.io/static/js/main.5e6098a5.js.map"
   },
   "entrypoints": [
     "static/css/main.57fd5daa.css",
-    "static/js/main.033bb6f9.js"
+    "static/js/main.5e6098a5.js"
   ]
 }
