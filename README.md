@@ -1,1 +1,1 @@
-# FryShrimp.github.io
+# SimpleLifeBalancing.github.io
