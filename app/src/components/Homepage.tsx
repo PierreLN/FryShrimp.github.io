@@ -14,9 +14,9 @@ const Homepage = (props: any) => {
           your life. This blog will help you leverage yourself into a position
           where you have more control over your life. 
           <br/><br/>
-          “Invest in you.” 
-          <br/><br/>
           Feel free to navigate through the blog and look for the answers you need.
+          <br/><br/>
+          “Invest in you.” 
           <br/><br/>
           “Absorb what is useful. Reject what is useless. Add what is
           essentially your own.” – Bruce lee.
