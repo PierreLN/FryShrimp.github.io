@@ -1,22 +1,24 @@
 import React from "react";
-import profilImage from "../Images/Kame22.jpg";
+import profilImage from "../../Images/Kame22.jpg";
 import styles from "./AboutPage.module.css";
 
 function AboutPage() {
   const title = <h2>About Us</h2>;
   const presentation = (
     <div>
-      <div>Hello! </div>
+      <div>SimpleLifeBalancing is a life management blog.</div>
       <br></br>
       <div>
-        <div>intro </div>
+        <div>Goal: Leverage you into a position where you have more control over your life. </div>
         <br></br>
-        <div>content</div>
+        <div>Mission: Inspire and educate new motivated people regardless of their background.</div>
         <br></br>
-        <div>more stuff</div>
+        <div>Vision: Live in a world where people have control over their lives.</div>
+        <br />
+        <div>Values: Growth - Efficiency - Control - Transparency</div>
       </div>
       <br></br>
-      <div>Thank you for visiting,</div>
+      <div>“Everything that I offer the world comes as a product of me trying to help myself.” -Elliot Hulse</div>
     </div>
   );
 

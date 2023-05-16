@@ -25,7 +25,7 @@
         rgba(255, 255, 255, 0.1),
         rgba(0, 0, 0, 0.4)
       ),
-      url("../Images/Stand_1.jpg");
+      url("../../Images/Stand_1.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;

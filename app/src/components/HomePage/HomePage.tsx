@@ -1,7 +1,7 @@
-import styles from "./Homepage.module.css";
-import Card from "./UI/Card";
+import styles from "./HomePage.module.css";
+import Card from "../UI/Card";
 
-const Homepage = (props: any) => {
+const HomePage = (props: any) => {
   return (
     <div className={styles.homepage}>
       <div className={styles["homepage-top"]}>
@@ -31,4 +31,4 @@ const Homepage = (props: any) => {
   );
 };
 
-export default Homepage;
+export default HomePage;

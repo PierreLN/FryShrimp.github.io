@@ -1,9 +1,9 @@
 import styles from './MainPage.module.css'
 import React, { useState, useEffect, useRef } from "react";
-import AboutPage from "./AboutPage";
-import HomePage from "./Homepage";
-import BlogPage from "./BlogPage";
-import ContactPage from "./ContactPage";
+import AboutPage from "./AboutPage/AboutPage";
+import HomePage from './HomePage/HomePage'
+import BlogPage from "./BlogPage/BlogPage";
+import ContactPage from "./ContactPage/ContactPage";
 
 function MainPage(props: any) {
                    
@@ -11,7 +11,7 @@ function MainPage(props: any) {
 
   const homePage = <HomePage onClick={props.onClick}></HomePage>;
   const aboutPage = <AboutPage></AboutPage>;
-  const blogPage = <BlogPage>sadsfg</BlogPage>;
+  const blogPage = <BlogPage></BlogPage>;
   const contactPage = <ContactPage></ContactPage>;
 
   const [currentPage, setCurrentPage] = useState(homePage);
@@ -23,7 +23,7 @@ function MainPage(props: any) {
     } else if (props.selectedPage === "home") {
       setCurrentPage(homePage);
     } else if (props.selectedPage === "blog") {
-      setCurrentPage(<BlogPage></BlogPage>);
+      setCurrentPage(blogPage);
     } else if (props.selectedPage === "contact") {
       setCurrentPage(contactPage);
     }
