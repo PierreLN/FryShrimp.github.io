@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/FryShrimp.github.io/static/css/main.4a873631.css",
-    "main.js": "/FryShrimp.github.io/static/js/main.d79505b1.js",
+    "main.css": "/FryShrimp.github.io/static/css/main.61e1d602.css",
+    "main.js": "/FryShrimp.github.io/static/js/main.538e353a.js",
     "static/media/Kame.jpg": "/FryShrimp.github.io/static/media/Kame.18705efee517db773195.jpg",
     "static/media/Stand_0.jpg": "/FryShrimp.github.io/static/media/Stand_0.fc4603f87a8bb4f5678e.jpg",
     "static/media/Stand_1.jpg": "/FryShrimp.github.io/static/media/Stand_1.b5be39ff5ce8b0805ad0.jpg",
     "index.html": "/FryShrimp.github.io/index.html",
-    "main.4a873631.css.map": "/FryShrimp.github.io/static/css/main.4a873631.css.map",
-    "main.d79505b1.js.map": "/FryShrimp.github.io/static/js/main.d79505b1.js.map"
+    "main.61e1d602.css.map": "/FryShrimp.github.io/static/css/main.61e1d602.css.map",
+    "main.538e353a.js.map": "/FryShrimp.github.io/static/js/main.538e353a.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a873631.css",
-    "static/js/main.d79505b1.js"
+    "static/css/main.61e1d602.css",
+    "static/js/main.538e353a.js"
   ]
 }
