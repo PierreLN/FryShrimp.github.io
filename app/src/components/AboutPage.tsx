@@ -3,7 +3,7 @@ import profilImage from "../Images/Kame22.jpg";
 import styles from "./AboutPage.module.css";
 
 function AboutPage() {
-  const title = <h2>About me</h2>;
+  const title = <h2>About Us</h2>;
   const presentation = (
     <div>
       <div>Hello! </div>
