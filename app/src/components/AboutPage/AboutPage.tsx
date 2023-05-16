@@ -3,7 +3,6 @@ import profilImage from "../../Images/Kame22.jpg";
 import styles from "./AboutPage.module.css";
 
 function AboutPage() {
-  const title = <h2>About Us</h2>;
   const presentation = (
     <div>
       <h1>SimpleLifeBalancing</h1>
@@ -45,7 +44,6 @@ function AboutPage() {
         ></img>
       </div>
       <div className={styles.description}>
-        <div className={styles.title}>{title}</div>
         <div className={styles.presentation}>{presentation}</div>
       </div>
     </div>

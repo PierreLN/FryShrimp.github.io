@@ -42,14 +42,43 @@
   padding: 1% 2% 1% 2%;
   overflow: auto;
   transition: transform 2.0s ease-out;
+  border-radius: 10px;
 }
 
 .description:hover {
   transform: scale(1.2);
-  box-shadow: 1px 15px 40px 15px rgba(218, 73, 73, 0.819);
   animation: fireUp 3s;
+  box-shadow: 1px 0px 40px 65px rgba(218, 73, 73, 0.819);
+  animation: scalingUp 3s;
+
+}
+
+@keyframes scalingUp {
+  0% {
+    box-shadow: 1px 1px 1px 1px rgba(218, 73, 73, 0.819);
+    }
+  50% {
+    box-shadow: 1px 1px 10px 5px rgba(218, 73, 73, 0.819);
+    }
+  100% {
+    box-shadow: 1px 0px 40px 65px rgba(218, 73, 73, 0.819);
+    }
 }
 
 .bestQuote {
-  animation: fireUp 6s infinite ease-in-out;
+  animation: fireUp 3s infinite ease-in-out;
+}
+
+@media only screen and (max-width: 420px) {
+  .title {
+    margin-top: 20%;
+    font-size: 20px;
+  }
+  .description {
+    font-size: 9.5px;
+  }
+  .bestQuote {
+    font-size: small;
+  }
+
 }
