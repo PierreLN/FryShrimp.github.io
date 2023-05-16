@@ -1,4 +1,5 @@
 import styles from "./Homepage.module.css";
+import Card from "./UI/Card";
 
 const Homepage = (props: any) => {
   return (
@@ -8,11 +9,11 @@ const Homepage = (props: any) => {
         <div className={styles.title}>Welcome to SimpleLifeBalancing!</div>
       </div>
       <div className={styles["homepage-bottom"]}>
-        <div className={styles.description}>
+        <Card className={styles.description}>
           <br/>
           Balancing your life is one of the most important aspect of your life
-          and it’s critical to your dream’s success. Nevertheless, many of us
-          neglect it. Fear not, it’s never too late to start taking control over
+          and it's critical to your dream's success. Nevertheless, many of us
+          neglect it. Fear not, it's never too late to start taking control over
           your life. This blog will help you leverage yourself into a position
           where you have more control over your life. 
           <br/><br/>
@@ -21,10 +22,10 @@ const Homepage = (props: any) => {
           “Invest in you.” 
           <br/><br/>
           “Absorb what is useful. Reject what is useless. Add what is
-          essentially your own.” – Bruce lee.
+          essentially your own.” -Bruce lee.
           <br/><br/> “Everything that I offer the world comes as a product of me
           trying to help myself.” -Elliot Hulse
-        </div>
+        </Card>
       </div>
     </div>
   );
