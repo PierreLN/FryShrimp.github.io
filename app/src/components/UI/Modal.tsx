@@ -17,7 +17,7 @@ const Overlay = (props: any) => {
         <div className={styles.image_section}>
           <img className={styles.image} src={props.image} alt={props.image} />
         </div>
-        <p>{props.message}</p>
+        <p className={styles.message}>{props.message}</p>
       </div>
     </Card>
   );

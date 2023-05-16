@@ -21,6 +21,19 @@
   padding-top: 10%;
   font-size: 50px;
   padding-bottom: 3%;
+  animation: fireUp 6s;
+}
+
+@keyframes fireUp{
+  0% {
+    color: white;
+  }
+  50% {
+    color: rgba(218, 73, 73, 0.819);
+  }
+  100% {
+    color: white;
+  }
 }
 
 .description {
@@ -28,4 +41,15 @@
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
   padding: 1% 2% 1% 2%;
   overflow: auto;
+  transition: transform 2.0s ease-out;
+}
+
+.description:hover {
+  transform: scale(1.2);
+  box-shadow: 1px 15px 40px 15px rgba(218, 73, 73, 0.819);
+  animation: fireUp 3s;
+}
+
+.bestQuote {
+  animation: fireUp 6s infinite ease-in-out;
 }

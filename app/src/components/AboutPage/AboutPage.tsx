@@ -6,19 +6,32 @@ function AboutPage() {
   const title = <h2>About Us</h2>;
   const presentation = (
     <div>
-      <div>SimpleLifeBalancing is a life management blog.</div>
-      <br></br>
-      <div>
-        <div>Goal: Leverage you into a position where you have more control over your life. </div>
-        <br></br>
-        <div>Mission: Inspire and educate new motivated people regardless of their background.</div>
-        <br></br>
-        <div>Vision: Live in a world where people have control over their lives.</div>
-        <br />
-        <div>Values: Growth - Efficiency - Control - Transparency</div>
-      </div>
-      <br></br>
-      <div>“Everything that I offer the world comes as a product of me trying to help myself.” -Elliot Hulse</div>
+      <h1>SimpleLifeBalancing</h1>
+      <p>A life management blog.</p>
+      <br />
+
+      <h2>Goal</h2>
+      <p>
+        Leverage you into a position where you have more control over your life.
+      </p>
+
+      <h2>Mission</h2>
+      <p>
+        Inspire and educate new motivated people regardless of their background.
+      </p>
+
+      <h2>Vision</h2>
+      <p>Live in a world where people have control over their lives.</p>
+
+      <h2>Values</h2>
+      <p>Growth - Efficiency - Control - Transparency</p>
+      <br />
+      <p>
+        <em>
+          “Everything that I offer the world comes as a product of me trying to
+          help myself.” - Elliot Hulse
+        </em>
+      </p>
     </div>
   );
 

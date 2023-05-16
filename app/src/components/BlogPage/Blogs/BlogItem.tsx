@@ -34,8 +34,8 @@ function BlogItem(props: any) {
           className={styles.blog_image}
         />
         <Card className={styles.blog_description}>
-          {props.description}
-          <Card className={styles.blog_language}>{props.language}</Card>
+          {props.sumary}
+          {/* <Card className={styles.blog_language}>{props.language}</Card> */}
         </Card>
       </div>
     </Fragment>

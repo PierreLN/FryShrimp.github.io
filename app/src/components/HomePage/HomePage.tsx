@@ -19,12 +19,12 @@ const HomePage = (props: any) => {
           <br/><br/>
           Feel free to navigate through the blog and look for the answers you need.
           <br/><br/>
-          “Invest in you.” 
+          <em className={styles.bestQuote}>“Invest in you.” </em>
           <br/><br/>
-          “Absorb what is useful. Reject what is useless. Add what is
-          essentially your own.” -Bruce lee.
-          <br/><br/> “Everything that I offer the world comes as a product of me
-          trying to help myself.” -Elliot Hulse
+          <em>“Absorb what is useful. Reject what is useless. Add what is
+          essentially your own.” </em>-Bruce lee.
+          <br/><br/> <em>“Everything that I offer the world comes as a product of me
+          trying to help myself.” </em>-Elliot Hulse
         </Card>
       </div>
     </div>
