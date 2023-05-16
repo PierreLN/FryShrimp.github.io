@@ -5,11 +5,14 @@
 
 .homepage-top {
   width: 90%;
-  height: 70%;
+  height: 60%;
 }
 
 .homepage-bottom {
   width: 90%;
-  height: 30%;
-  font-size: 100px;
+  height: 20%;
+  font-size: 20px;
 }
+
+.description {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);}
