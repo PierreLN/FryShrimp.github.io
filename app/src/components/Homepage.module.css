@@ -5,18 +5,20 @@
 
 .homepage-top {
   width: 90%;
-  height: 60%;
+  height: 50%;
 }
 
 .homepage-bottom {
   width: 90%;
-  height: 20%;
+  height: 50%;
   font-size: 20px;
+  margin-left: 5%;
 }
 
 .title {
   font-size: 50px;
   text-align: center;
+  padding-bottom: 3%;
 }
 
 .description {
