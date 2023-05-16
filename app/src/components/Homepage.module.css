@@ -1,7 +1,7 @@
 .homepage {
-    width: 90%;
-    height: 90%;
-  }
+  width: 90%;
+  height: 90%;
+}
 
 .homepage-top {
   width: 90%;
@@ -14,5 +14,12 @@
   font-size: 20px;
 }
 
+.title {
+  font-size: 50px;
+  text-align: center;
+}
+
 .description {
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);}
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  padding: 2% 2% 3% 2%;
+}
