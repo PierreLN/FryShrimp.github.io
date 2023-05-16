@@ -14,8 +14,8 @@ function ContactPage() {
   };
 
   const socialMediaHandler = (data: any) => {
-    if (data.target.innerHTML === "LinkedIn") {
-      window.location.href = "";
+    if (data.target.innerHTML === "Shop") {
+      window.location.href = "https://yasashihouse.creator-spring.com";
     } else if (data.target.innerHTML === "Github") {
       window.location.href = "*";
     }
@@ -88,8 +88,7 @@ function ContactPage() {
               </div>
             </div>
             <div className={styles.media} onClick={socialMediaHandler}>
-              <div className={styles.contactPage_media}>LinkedIn</div>
-              <div className={styles.contactPage_media}>Github</div>
+              <div className={styles.contactPage_media}>Shop</div>
             </div>
           </div>
         </div>
