@@ -3,9 +3,11 @@ import styles from "./Homepage.module.css";
 const Homepage = (props: any) => {
   return (
     <div className={styles.homepage}>
-      <div className={styles["homepage-top"]}></div>
-      <div className={styles["homepage-bottom"]}>
+      <div className={styles["homepage-top"]}>
+
         <div className={styles.title}>Welcome to SimpleLifeBalancing!</div>
+      </div>
+      <div className={styles["homepage-bottom"]}>
         <div className={styles.description}>
           <br/>
           Balancing your life is one of the most important aspect of your life
