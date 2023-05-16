@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/SimpleLifeBalancing.github.io/static/css/main.b219afe0.css",
-    "main.js": "/SimpleLifeBalancing.github.io/static/js/main.dd382698.js",
+    "main.css": "/SimpleLifeBalancing.github.io/static/css/main.11dece98.css",
+    "main.js": "/SimpleLifeBalancing.github.io/static/js/main.7daaa910.js",
     "static/media/Kame22.jpg": "/SimpleLifeBalancing.github.io/static/media/Kame22.87f33741d74507b05bff.jpg",
     "static/media/Stand_0.jpg": "/SimpleLifeBalancing.github.io/static/media/Stand_0.fc4603f87a8bb4f5678e.jpg",
     "static/media/Stand_1.jpg": "/SimpleLifeBalancing.github.io/static/media/Stand_1.b5be39ff5ce8b0805ad0.jpg",
     "index.html": "/SimpleLifeBalancing.github.io/index.html",
-    "main.b219afe0.css.map": "/SimpleLifeBalancing.github.io/static/css/main.b219afe0.css.map",
-    "main.dd382698.js.map": "/SimpleLifeBalancing.github.io/static/js/main.dd382698.js.map"
+    "main.11dece98.css.map": "/SimpleLifeBalancing.github.io/static/css/main.11dece98.css.map",
+    "main.7daaa910.js.map": "/SimpleLifeBalancing.github.io/static/js/main.7daaa910.js.map"
   },
   "entrypoints": [
-    "static/css/main.b219afe0.css",
-    "static/js/main.dd382698.js"
+    "static/css/main.11dece98.css",
+    "static/js/main.7daaa910.js"
   ]
 }
